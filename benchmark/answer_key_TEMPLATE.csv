@@ -1,0 +1,7 @@
+clause_type,present,numeric_value,cap_percent,unit,clause_number,page,quote,notes
+payment_terms,yes,30,,days,19.9,45,"copy the exact words from the contract here","calendar days; example row - replace with your own reading"
+retention,yes,6,5,% of each bill,7.5,39,"copy the exact words here","example row"
+advance,yes,10,,% of contract price,19.2,44,"copy the exact words here","example row"
+liquidated_damages,no,,,,,,,"searched: liquidated damages, compensation for delay, damages; not present"
+escalation,yes,,,,19.10,46,"copy the exact words here","a price adjustment clause exists; value is a formula so numeric_value is blank"
+performance_security,yes,3,,% of bid price,7.1,38,"copy the exact words here","example row"

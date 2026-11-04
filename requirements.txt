@@ -1,0 +1,11 @@
+pymupdf
+pydantic
+pandas
+numpy
+plotly
+streamlit
+python-dotenv
+# Install ONLY the one you use for the AI engine (uncomment, or run pip install <name>):
+# google-genai
+# anthropic
+# openai
