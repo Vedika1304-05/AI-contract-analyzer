@@ -1,0 +1,19 @@
+result_file,clause,outcome,reason,tool_check,key_value,tool_value,key_cap,tool_cap,tool_page,key_page
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run1.json,payment_terms,correct_absent,,n/a,,,,,,
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run1.json,retention,correct,,verified,6.0,6.0,5.0,5.0,56.0,76.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run1.json,advance,correct,,verified,10.0,10.0,,10.0,76.0,76.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run1.json,liquidated_damages,correct,,verified,,,5.0,5.0,60.0,60.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run1.json,escalation,incorrect,"Key value=None, cap=None; tool value=2.0, cap=None.",verified,,2.0,,,78.0,78.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run1.json,performance_security,incorrect,"Key value=5.0, cap=None; tool value=None, cap=None.",verified,5.0,,,,57.0,57.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run2.json,payment_terms,correct_absent,,n/a,,,,,,
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run2.json,retention,correct,,verified,6.0,6.0,5.0,5.0,56.0,76.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run2.json,advance,correct,,verified,10.0,10.0,,10.0,76.0,76.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run2.json,liquidated_damages,correct,,verified,,,5.0,5.0,60.0,60.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run2.json,escalation,incorrect,"Key value=None, cap=None; tool value=2.0, cap=None.",verified,,2.0,,,78.0,78.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run2.json,performance_security,incorrect,"Key value=5.0, cap=None; tool value=None, cap=None.",verified,5.0,,,,57.0,57.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run3.json,payment_terms,correct_absent,,n/a,,,,,,
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run3.json,retention,correct,,verified,6.0,6.0,5.0,5.0,56.0,76.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run3.json,advance,correct,,verified,10.0,10.0,,10.0,76.0,76.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run3.json,liquidated_damages,correct,,verified,,,5.0,5.0,60.0,60.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run3.json,escalation,correct,,verified,,,,,78.0,78.0
+test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run3.json,performance_security,incorrect,"Key value=5.0, cap=None; tool value=None, cap=None.",verified,5.0,,,,57.0,57.0

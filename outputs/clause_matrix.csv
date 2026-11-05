@@ -1,0 +1,19 @@
+contract,clause,baseline | none | none,llm | extract_v1 | gemini-2.5-flash,llm | extract_v2 | gemini-2.5-flash,llm | extract_v3 | gemini-2.5-flash,llm | extract_v4 | gemini-2.5-flash,llm | extract_v5 | gemini-2.5-flash
+test1_MoRTH_EPC_final,advance,incorrect,correct,,,,
+test1_MoRTH_EPC_final,escalation,correct,correct,,,,
+test1_MoRTH_EPC_final,liquidated_damages,missed,incorrect,,,,
+test1_MoRTH_EPC_final,payment_terms,incorrect,correct,,,,
+test1_MoRTH_EPC_final,performance_security,correct,correct,,,,
+test1_MoRTH_EPC_final,retention,incorrect,correct,,,,
+test2_Railway_GCC_2022,advance,correct,correct,,,,
+test2_Railway_GCC_2022,escalation,correct,correct,,,,
+test2_Railway_GCC_2022,liquidated_damages,missed,correct,,,,
+test2_Railway_GCC_2022,payment_terms,invented,correct_absent,,,,
+test2_Railway_GCC_2022,performance_security,incorrect,incorrect,,,,
+test2_Railway_GCC_2022,retention,incorrect,correct,,,,
+train1_NITI_model_EPC,advance,correct,correct,correct,correct,correct,correct
+train1_NITI_model_EPC,escalation,correct,correct,correct,correct,correct,correct
+train1_NITI_model_EPC,liquidated_damages,missed,incorrect,incorrect,incorrect,incorrect,incorrect
+train1_NITI_model_EPC,payment_terms,incorrect,correct,correct,correct,correct,correct
+train1_NITI_model_EPC,performance_security,correct,correct,correct,correct,correct,correct
+train1_NITI_model_EPC,retention,incorrect,correct,correct,correct,correct,correct

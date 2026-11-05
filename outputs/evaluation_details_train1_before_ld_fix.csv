@@ -1,0 +1,37 @@
+result_file,clause,outcome,reason,tool_check,key_value,tool_value,key_cap,tool_cap,tool_page,key_page
+train1_NITI_model_EPC__baseline__rules__run1.json,payment_terms,incorrect,"Key value=30.0, cap=None; tool value=10.0, cap=None.",verified,30.0,10.0,,,76.0,77
+train1_NITI_model_EPC__baseline__rules__run1.json,retention,incorrect,"Key value=6.0, cap=5.0; tool value=5.0, cap=5.0.",verified,6.0,5.0,5.0,5.0,39.0,39
+train1_NITI_model_EPC__baseline__rules__run1.json,advance,correct,,verified,10.0,10.0,,,74.0,74
+train1_NITI_model_EPC__baseline__rules__run1.json,liquidated_damages,missed,Tool did not find a clause that is in the key.,n/a,0.35000000000000003,,10.0,,,51
+train1_NITI_model_EPC__baseline__rules__run1.json,escalation,correct,,verified,,,,,80.0,78
+train1_NITI_model_EPC__baseline__rules__run1.json,performance_security,correct,,verified,5.0,5.0,,,38.0,38
+train1_NITI_model_EPC__llm__extract_v1__gemini-2.5-flash__run1.json,payment_terms,correct,,verified,30.0,30.0,,,77.0,77
+train1_NITI_model_EPC__llm__extract_v1__gemini-2.5-flash__run1.json,retention,correct,,verified,6.0,6.0,5.0,5.0,39.0,39
+train1_NITI_model_EPC__llm__extract_v1__gemini-2.5-flash__run1.json,advance,correct,,verified,10.0,10.0,,,74.0,74
+train1_NITI_model_EPC__llm__extract_v1__gemini-2.5-flash__run1.json,liquidated_damages,missed,Tool did not find a clause that is in the key.,n/a,0.35000000000000003,,10.0,,,51
+train1_NITI_model_EPC__llm__extract_v1__gemini-2.5-flash__run1.json,escalation,correct,,verified,,,,,80.0,78
+train1_NITI_model_EPC__llm__extract_v1__gemini-2.5-flash__run1.json,performance_security,correct,,verified,5.0,5.0,,,38.0,38
+train1_NITI_model_EPC__llm__extract_v2__gemini-2.5-flash__run1.json,payment_terms,correct,,verified,30.0,30.0,,,77.0,77
+train1_NITI_model_EPC__llm__extract_v2__gemini-2.5-flash__run1.json,retention,correct,,verified,6.0,6.0,5.0,5.0,39.0,39
+train1_NITI_model_EPC__llm__extract_v2__gemini-2.5-flash__run1.json,advance,correct,,verified,10.0,10.0,,,74.0,74
+train1_NITI_model_EPC__llm__extract_v2__gemini-2.5-flash__run1.json,liquidated_damages,missed,Tool did not find a clause that is in the key.,n/a,0.35000000000000003,,10.0,,,51
+train1_NITI_model_EPC__llm__extract_v2__gemini-2.5-flash__run1.json,escalation,correct,,verified,,,,,80.0,78
+train1_NITI_model_EPC__llm__extract_v2__gemini-2.5-flash__run1.json,performance_security,correct,,verified,5.0,5.0,,,38.0,38
+train1_NITI_model_EPC__llm__extract_v3__gemini-2.5-flash__run1.json,payment_terms,correct,,verified,30.0,30.0,,,77.0,77
+train1_NITI_model_EPC__llm__extract_v3__gemini-2.5-flash__run1.json,retention,correct,,verified,6.0,6.0,5.0,5.0,39.0,39
+train1_NITI_model_EPC__llm__extract_v3__gemini-2.5-flash__run1.json,advance,correct,,verified,10.0,10.0,,,74.0,74
+train1_NITI_model_EPC__llm__extract_v3__gemini-2.5-flash__run1.json,liquidated_damages,missed,Tool did not find a clause that is in the key.,n/a,0.35000000000000003,,10.0,,,51
+train1_NITI_model_EPC__llm__extract_v3__gemini-2.5-flash__run1.json,escalation,correct,,verified,,,,,80.0,78
+train1_NITI_model_EPC__llm__extract_v3__gemini-2.5-flash__run1.json,performance_security,correct,,verified,5.0,5.0,,,38.0,38
+train1_NITI_model_EPC__llm__extract_v4__gemini-2.5-flash__run1.json,payment_terms,correct,,verified,30.0,30.0,,,77.0,77
+train1_NITI_model_EPC__llm__extract_v4__gemini-2.5-flash__run1.json,retention,correct,,verified,6.0,6.0,5.0,5.0,39.0,39
+train1_NITI_model_EPC__llm__extract_v4__gemini-2.5-flash__run1.json,advance,correct,,partially_matched,10.0,10.0,,,74.0,74
+train1_NITI_model_EPC__llm__extract_v4__gemini-2.5-flash__run1.json,liquidated_damages,missed,Tool did not find a clause that is in the key.,n/a,0.35000000000000003,,10.0,,,51
+train1_NITI_model_EPC__llm__extract_v4__gemini-2.5-flash__run1.json,escalation,correct,,verified,,,,,80.0,78
+train1_NITI_model_EPC__llm__extract_v4__gemini-2.5-flash__run1.json,performance_security,correct,,verified,5.0,5.0,,,38.0,38
+train1_NITI_model_EPC__llm__extract_v5__gemini-2.5-flash__run1.json,payment_terms,correct,,verified,30.0,30.0,,,77.0,77
+train1_NITI_model_EPC__llm__extract_v5__gemini-2.5-flash__run1.json,retention,correct,,verified,6.0,6.0,5.0,5.0,39.0,39
+train1_NITI_model_EPC__llm__extract_v5__gemini-2.5-flash__run1.json,advance,correct,,verified,10.0,10.0,,,74.0,74
+train1_NITI_model_EPC__llm__extract_v5__gemini-2.5-flash__run1.json,liquidated_damages,missed,Tool did not find a clause that is in the key.,n/a,0.35000000000000003,,10.0,,,51
+train1_NITI_model_EPC__llm__extract_v5__gemini-2.5-flash__run1.json,escalation,correct,,verified,,,,,80.0,78
+train1_NITI_model_EPC__llm__extract_v5__gemini-2.5-flash__run1.json,performance_security,correct,,verified,5.0,5.0,,,38.0,38

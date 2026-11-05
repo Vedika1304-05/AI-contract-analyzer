@@ -1,0 +1,11 @@
+contract,setup,correct,incorrect,missed,invented,unverified_quotes,recall,precision,runs
+test1_MoRTH_EPC_final,baseline | none | none,2.0,3.0,1.0,0.0,0.0,0.33,0.4,1
+test1_MoRTH_EPC_final,llm | extract_v1 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,3
+test2_Railway_GCC_2022,baseline | none | none,2.0,2.0,1.0,1.0,0.0,0.4,0.4,1
+test2_Railway_GCC_2022,llm | extract_v1 | gemini-2.5-flash,3.33,1.67,0.0,0.0,0.0,0.67,0.67,3
+train1_NITI_model_EPC,baseline | none | none,3.0,2.0,1.0,0.0,0.0,0.5,0.6,1
+train1_NITI_model_EPC,llm | extract_v1 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1
+train1_NITI_model_EPC,llm | extract_v2 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1
+train1_NITI_model_EPC,llm | extract_v3 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1
+train1_NITI_model_EPC,llm | extract_v4 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1
+train1_NITI_model_EPC,llm | extract_v5 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1

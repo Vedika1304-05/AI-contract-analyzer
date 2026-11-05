@@ -5,5 +5,5 @@ myvenv/
 __pycache__/
 *.pyc
 data/
-outputs/
+
 .vscode/

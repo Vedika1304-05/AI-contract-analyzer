@@ -1,0 +1,15 @@
+timestamp,contract,engine,provider,model,prompt_version,run_id,key_file,result_file,clauses_in_key_present,correct,incorrect,missed,invented,correct_absent,recall,precision,unverified_quotes
+2026-11-04 14:26:47,train1_NITI_model_EPC,baseline,,,,1,answer_key_train1.csv,train1_NITI_model_EPC__baseline__rules__run1.json,6,3,2,1,0,0,0.5,0.6,0
+2026-11-04 14:26:47,train1_NITI_model_EPC,llm,gemini,gemini-2.5-flash,extract_v1,1,answer_key_train1.csv,train1_NITI_model_EPC__llm__extract_v1__gemini-2.5-flash__run1.json,6,5,1,0,0,0,0.833,0.833,0
+2026-11-04 14:26:47,train1_NITI_model_EPC,llm,gemini,gemini-2.5-flash,extract_v2,1,answer_key_train1.csv,train1_NITI_model_EPC__llm__extract_v2__gemini-2.5-flash__run1.json,6,5,1,0,0,0,0.833,0.833,0
+2026-11-04 14:26:47,train1_NITI_model_EPC,llm,gemini,gemini-2.5-flash,extract_v3,1,answer_key_train1.csv,train1_NITI_model_EPC__llm__extract_v3__gemini-2.5-flash__run1.json,6,5,1,0,0,0,0.833,0.833,0
+2026-11-04 14:26:47,train1_NITI_model_EPC,llm,gemini,gemini-2.5-flash,extract_v4,1,answer_key_train1.csv,train1_NITI_model_EPC__llm__extract_v4__gemini-2.5-flash__run1.json,6,5,1,0,0,0,0.833,0.833,0
+2026-11-04 14:26:47,train1_NITI_model_EPC,llm,gemini,gemini-2.5-flash,extract_v5,1,answer_key_train1.csv,train1_NITI_model_EPC__llm__extract_v5__gemini-2.5-flash__run1.json,6,5,1,0,0,0,0.833,0.833,0
+2026-11-04 14:56:43,test1_MoRTH_EPC_final,llm,gemini,gemini-2.5-flash,extract_v1,1,answer_key_test1.csv,test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run1.json,6,5,1,0,0,0,0.833,0.833,0
+2026-11-04 14:56:43,test1_MoRTH_EPC_final,llm,gemini,gemini-2.5-flash,extract_v1,2,answer_key_test1.csv,test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run2.json,6,5,1,0,0,0,0.833,0.833,0
+2026-11-04 14:56:43,test1_MoRTH_EPC_final,llm,gemini,gemini-2.5-flash,extract_v1,3,answer_key_test1.csv,test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run3.json,6,5,1,0,0,0,0.833,0.833,0
+2026-11-04 14:57:23,test1_MoRTH_EPC_final,baseline,,,,1,answer_key_test1.csv,test1_MoRTH_EPC_final__baseline__rules__run1.json,6,2,3,1,0,0,0.333,0.4,0
+2026-11-04 14:57:38,test2_Railway_GCC_2022,llm,gemini,gemini-2.5-flash,extract_v1,1,answer_key_test2.csv,test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run1.json,5,3,2,0,0,1,0.6,0.6,0
+2026-11-04 14:57:38,test2_Railway_GCC_2022,llm,gemini,gemini-2.5-flash,extract_v1,2,answer_key_test2.csv,test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run2.json,5,3,2,0,0,1,0.6,0.6,0
+2026-11-04 14:57:38,test2_Railway_GCC_2022,llm,gemini,gemini-2.5-flash,extract_v1,3,answer_key_test2.csv,test2_Railway_GCC_2022__llm__extract_v1__gemini-2.5-flash__run3.json,5,4,1,0,0,1,0.8,0.8,0
+2026-11-04 14:57:47,test2_Railway_GCC_2022,baseline,n/a,n/a,n/a,1,answer_key_test2.csv,test2_Railway_GCC_2022__baseline__rules__run1.json,5,2,2,1,1,0,0.4,0.4,0

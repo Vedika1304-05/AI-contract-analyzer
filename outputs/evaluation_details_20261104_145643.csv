@@ -1,0 +1,19 @@
+result_file,clause,outcome,reason,tool_check,key_value,tool_value,key_cap,tool_cap,tool_page,key_page
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run1.json,payment_terms,correct,,verified,30.0,30.0,,,106,106
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run1.json,retention,correct,,verified,6.0,6.0,5.0,5.0,53,53
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run1.json,advance,correct,,verified,10.0,10.0,,,101,101
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run1.json,liquidated_damages,incorrect,"Key value=0.35000000000000003, cap=10.0; tool value=0.35000000000000003, cap=None.",verified,0.35000000000000003,0.35000000000000003,10.0,,67,67
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run1.json,escalation,correct,,verified,,,,,106,106
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run1.json,performance_security,correct,,verified,3.0,3.0,,,51,51
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run2.json,payment_terms,correct,,verified,30.0,30.0,,,106,106
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run2.json,retention,correct,,verified,6.0,6.0,5.0,5.0,53,53
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run2.json,advance,correct,,verified,10.0,10.0,,,101,101
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run2.json,liquidated_damages,incorrect,"Key value=0.35000000000000003, cap=10.0; tool value=0.35000000000000003, cap=None.",verified,0.35000000000000003,0.35000000000000003,10.0,,67,67
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run2.json,escalation,correct,,verified,,,,,106,106
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run2.json,performance_security,correct,,verified,3.0,3.0,,,51,51
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run3.json,payment_terms,correct,,verified,30.0,30.0,,,106,106
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run3.json,retention,correct,,verified,6.0,6.0,5.0,5.0,53,53
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run3.json,advance,correct,,verified,10.0,10.0,,10.0,101,101
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run3.json,liquidated_damages,incorrect,"Key value=0.35000000000000003, cap=10.0; tool value=0.35000000000000003, cap=None.",verified,0.35000000000000003,0.35000000000000003,10.0,,67,67
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run3.json,escalation,correct,,verified,,,,,106,106
+test1_MoRTH_EPC_final__llm__extract_v1__gemini-2.5-flash__run3.json,performance_security,correct,,verified,3.0,3.0,,,51,51

@@ -1,0 +1,7 @@
+contract,setup,correct,incorrect,missed,invented,unverified_quotes,recall,precision,runs
+train1_NITI_model_EPC,baseline | none | none,3.0,2.0,1.0,0.0,0.0,0.5,0.6,1
+train1_NITI_model_EPC,llm | extract_v1 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1
+train1_NITI_model_EPC,llm | extract_v2 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1
+train1_NITI_model_EPC,llm | extract_v3 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1
+train1_NITI_model_EPC,llm | extract_v4 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1
+train1_NITI_model_EPC,llm | extract_v5 | gemini-2.5-flash,5.0,1.0,0.0,0.0,0.0,0.83,0.83,1

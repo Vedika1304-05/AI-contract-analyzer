@@ -1,0 +1,7 @@
+result_file,clause,outcome,reason,tool_check,key_value,tool_value,key_cap,tool_cap,tool_page,key_page
+test1_MoRTH_EPC_final__baseline__rules__run1.json,payment_terms,incorrect,"Key value=30.0, cap=None; tool value=10.0, cap=None.",verified,30.0,10.0,,,104.0,106
+test1_MoRTH_EPC_final__baseline__rules__run1.json,retention,incorrect,"Key value=6.0, cap=5.0; tool value=5.0, cap=5.0.",verified,6.0,5.0,5.0,5.0,53.0,53
+test1_MoRTH_EPC_final__baseline__rules__run1.json,advance,incorrect,"Key value=10.0, cap=None; tool value=5.0, cap=None.",verified,10.0,5.0,,,102.0,101
+test1_MoRTH_EPC_final__baseline__rules__run1.json,liquidated_damages,missed,Tool did not find a clause that is in the key.,n/a,0.35000000000000003,,10.0,,,67
+test1_MoRTH_EPC_final__baseline__rules__run1.json,escalation,correct,,verified,,,,,109.0,106
+test1_MoRTH_EPC_final__baseline__rules__run1.json,performance_security,correct,,verified,3.0,3.0,,,51.0,51

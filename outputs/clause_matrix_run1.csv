@@ -1,0 +1,13 @@
+contract,clause,baseline | none | none,llm | extract_v1 | gemini-2.5-flash,llm | extract_v2 | gemini-2.5-flash,llm | extract_v3 | gemini-2.5-flash,llm | extract_v4 | gemini-2.5-flash,llm | extract_v5 | gemini-2.5-flash
+train1_NITI_model_EPC,advance,correct,correct,correct,correct,correct,correct
+train1_NITI_model_EPC,escalation,correct,correct,correct,correct,correct,correct
+train1_NITI_model_EPC,liquidated_damages,missed,missed,missed,missed,missed,missed
+train1_NITI_model_EPC,payment_terms,incorrect,correct,correct,correct,correct,correct
+train1_NITI_model_EPC,performance_security,correct,correct,correct,correct,correct,correct
+train1_NITI_model_EPC,retention,incorrect,correct,correct,correct,correct,correct
+train2_CPWD_GCC_2024,advance,correct,correct,correct,correct,correct,correct
+train2_CPWD_GCC_2024,escalation,correct,correct,correct,correct,correct,correct
+train2_CPWD_GCC_2024,liquidated_damages,correct,correct,correct,correct,correct,correct
+train2_CPWD_GCC_2024,payment_terms,incorrect,correct,correct,correct,correct,correct
+train2_CPWD_GCC_2024,performance_security,incorrect,correct,correct,correct,correct,correct
+train2_CPWD_GCC_2024,retention,incorrect,correct,correct,correct,correct,correct
